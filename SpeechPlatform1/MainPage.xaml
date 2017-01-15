@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="SpeechPlatform1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpeechPlatform1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="startListenBtn" Content="Start listening" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="startListenBtn_Click"/>
+        <Button x:Name="startContinousListenBtn" Content="Start continous listening" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Click="startContinousListenBtn_Click"/>
+        <Button x:Name="stopContinousListenBtn" Content="stop continous listening" HorizontalAlignment="Left" Margin="232,88,0,0" VerticalAlignment="Top" Click="stopContinousListenBtn_Click"/>
+        <TextBlock x:Name="outputTxt" HorizontalAlignment="Left" Margin="10,172,0,0" TextWrapping="Wrap" Text="Feedback text goes here" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
